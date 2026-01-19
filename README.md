@@ -21,3 +21,10 @@ pip install colorama
 git clone https://github.com/ionutivan21/Driver-Port.git
 cd Driver-Port
 python driverport.py 127.0.0.1
+
+#usage
+
+python driverport.py <target>
+python driverport.py <target> -p 1-1000
+python driverport.py <target> --top
+python driverport.py <target> -o output.txt
